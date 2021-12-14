@@ -1,6 +1,26 @@
 /* coded by SabWaFei */
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+:root {
+  --clr-drkBlu: hsl(233, 26%, 24%);
+  --clr-lmeGrn: hsl(136, 65%, 51%);
+  --clr-bgtCyn: hsl(192, 70%, 51%);
+  --clr-gryBlu: hsl(233, 8%, 62%);
+  --clr-lgtGry: hsl(0, 0%, 98%);
+  --clr-wht: hsl(0, 0%, 100%);
+  --ff-pubSans: "Public Sans", sans-serif;
+}
+body {
+  font-size: 18px;
+  font-family: var(--ff-pubSans);
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
 }

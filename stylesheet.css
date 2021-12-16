@@ -190,3 +190,33 @@ nav {
   margin-bottom: 2rem;
   font-size: 0.7em;
 }
+/* footer section styling */
+.footer {
+  text-align: center;
+  width: 100%;
+  color: var(--clr-wht);
+  background-color: var(--clr-drk-blu);
+}
+.footer a {
+  color: var(--clr-wht);
+}
+.footer-middle {
+  margin-bottom: 1rem;
+}
+/* generic spacing */
+.spacing-half {
+  margin-top: 0.5rem;
+}
+.spacing-full {
+  margin-top: 1rem;
+}
+.footer-right {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.attribution {
+  margin-top: 1rem;
+}
+.footer-right-button {
+  margin-bottom: 2rem;
+}

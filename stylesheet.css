@@ -20,7 +20,6 @@
 body {
   font-size: 18px;
   font-family: var(--ff-pub-sans);
-  background-color: lightgray;
 }
 /* typography */
 a {
@@ -37,6 +36,10 @@ h1 {
 h2 {
   font-weight: var(--fw-lgt);
   font-size: 2rem;
+}
+h3 {
+  font-size: 1.2rem;
+  font-weight: var(--fw-lgt);
 }
 p {
   color: var(--clr-gry-blu);
@@ -61,6 +64,7 @@ button {
 /* layout */
 .container {
   border: red solid 1px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -95,7 +99,6 @@ nav {
 /* next-gen section styling */
 .next-gen {
   text-align: center;
-  width: 100%;
 }
 .mobile-background-img {
   width: 100%;
@@ -118,10 +121,28 @@ nav {
 }
 /* why section styling */
 .why {
-  border: solid green 1px;
   text-align: center;
-  width: 90%;
+}
+.why-bg {
+  background-color: var(--clr-lgt-gry);
+  width: 100%;
 }
 .why > * {
   margin-bottom: 2rem;
+}
+.why-title {
+  padding-top: 2em;
+  width: 90%;
+}
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+}
+.grid-element {
+  width: 90%;
+  margin: auto;
+}
+.grid-element > * {
+  margin-bottom: 1rem;
 }

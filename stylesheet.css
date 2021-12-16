@@ -36,6 +36,7 @@ h1 {
 h2 {
   font-weight: var(--fw-lgt);
   font-size: 2rem;
+  text-transform: capitalize;
 }
 h3 {
   font-size: 1.2rem;
@@ -145,4 +146,47 @@ nav {
 }
 .grid-element > * {
   margin-bottom: 1rem;
+}
+/* articles section */
+.articles {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  background-color: var(--clr-lgt-gry);
+}
+.article-title {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+}
+.article-element {
+  width: 90%;
+  margin: auto;
+  text-align: left;
+  background-color: var(--clr-wht);
+}
+.article-img {
+  display: block;
+  width: 100%;
+}
+.article-element-bottom {
+  width: 85%;
+  margin: auto;
+}
+.article-element-bottom-author {
+  font-size: 0.8em;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.article-element-bottom-title {
+  font-weight: var(--fw-med);
+  margin-bottom: 0.5rem;
+}
+.article-element-bottom-descr {
+  margin-bottom: 2rem;
+  font-size: 0.7em;
 }

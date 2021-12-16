@@ -12,24 +12,26 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <script
+      src="https://kit.fontawesome.com/a49d5dbedb.js"
+      crossorigin="anonymous"
+    ></script>
+
     <link rel="stylesheet" href="/stylesheet.css" />
     <title>Frontend Mentor | Easybank landing page</title>
   </head>
   <body>
     <div class="container">
       <nav>
-        <ul class="main-nav">
-          <a href="#"><img src="/images/logo.svg" alt="company logo" /></a>
-          <div id="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Careers</a></li>
-          </div>
-
-          <li id="dskt-nav-button"><button>Request Invite</button></li>
+        <a href="#"><img src="/images/logo.svg" alt="company logo" /></a>
+        <ul class="nav-links-container">
+          <li class="nav-links"><a href="#">home</a></li>
+          <li class="nav-links"><a href="#">about</a></li>
+          <li class="nav-links"><a href="#">contact</a></li>
+          <li class="nav-links"><a href="#">blog</a></li>
+          <li class="nav-links"><a href="#">Careers</a></li>
         </ul>
+        <i class="fas fa-bars" id="hamburger-icon"></i>
       </nav>
       <section class="next-gen">
         <h1>Next generation digital banking</h1>

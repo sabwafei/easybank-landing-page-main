@@ -135,11 +135,12 @@ button:hover {
 }
 /* why section styling */
 .why {
+  background-color: var(--clr-lgt-gry);
   text-align: center;
 }
-.why-bg {
-  background-color: var(--clr-lgt-gry);
-  width: 100%;
+.wrapper {
+  width: 90%;
+  margin: auto;
 }
 .why > * {
   margin-bottom: 2rem;
@@ -213,6 +214,12 @@ button:hover {
 }
 .footer a {
   color: var(--clr-wht);
+}
+.footer-left-top {
+  margin: 1rem 1rem;
+}
+.footer-left-bottom {
+  margin: 1rem 1rem;
 }
 .footer-middle {
   margin-bottom: 1rem;

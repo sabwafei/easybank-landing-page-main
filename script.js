@@ -15,3 +15,5 @@ navButton.addEventListener("click", () => {
     mobileNavLinks.style.display = "none";
   }
 });
+
+//functions

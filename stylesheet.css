@@ -97,7 +97,11 @@ button:hover {
   position: absolute;
   background-color: var(--clr-wht);
   text-align: center;
-  width: 80%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
   top: 70px;
   border-radius: 10px;
   -webkit-box-shadow: 0px 16px 19px 32px rgba(45, 49, 77, 0.5);
@@ -111,6 +115,7 @@ button:hover {
   display: block;
 }
 .nav-links a {
+  font-size: 1rem;
   color: var(--clr-gry-blu);
 }
 /* ***************************** */
@@ -120,9 +125,9 @@ button:hover {
   text-align: center;
 }
 .mobile-background-img {
-  width: 100%;
+  max-width: 100%;
   position: relative;
-  bottom: 130px;
+  bottom: 120%;
   z-index: -1;
   background-image: url(/images/bg-intro-mobile.svg);
   background-repeat: no-repeat;
@@ -279,11 +284,23 @@ button:hover {
   .nav-links ul li {
     padding: 0.5rem;
   }
-  .nav-links a {
-    font-size: 1rem;
-    color: var(--clr-gry-blu);
-  }
   .nav-cta-btn {
     display: block;
+  }
+  /* next-gen section styling */
+  .wrapper {
+    width: 90%;
+  }
+  .next-gen,
+  h1,
+  p {
+    text-align: left;
+  }
+  .mobile-background-img {
+    z-index: -1;
+    position: relative;
+    left: 20%;
+    background-image: url(/images/bg-intro-desktop.svg);
+    background-repeat: no-repeat;
   }
 }
